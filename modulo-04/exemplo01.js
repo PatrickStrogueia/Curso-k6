@@ -5,7 +5,7 @@ export const options = {
     vus: 1,
     duration: '3s',
     thresholds: {
-        checks: ['rate < 0.99']
+        checks: ['rate > 0.99']
     }
 }
 
